@@ -9,19 +9,17 @@
 
 Pod::Spec.new do |s|
   s.name             = "CVCalendar"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of CVCalendar."
+  s.version          = "1.1.0"
+  s.summary          = "This is a CocoaPod for the CVCalendar component."
   s.description      = <<-DESC
-                       An optional longer description of CVCalendar
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A calendar component with monthly and weekly view
+                       support.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/CVCalendar"
+  s.homepage         = "https://github.com/Mozharovsky/CVCalendar"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Chen, Robert" => "Robert.Chen@capitalone.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/CVCalendar.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Mozharovsky/CVCalendar.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'

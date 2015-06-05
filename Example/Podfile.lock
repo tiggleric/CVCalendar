@@ -1,0 +1,14 @@
+PODS:
+  - CVCalendar (0.1.0)
+
+DEPENDENCIES:
+  - CVCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  CVCalendar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CVCalendar: 5a0a9350d35623c76f51f0d272689bdb352ce8b7
+
+COCOAPODS: 0.37.2
